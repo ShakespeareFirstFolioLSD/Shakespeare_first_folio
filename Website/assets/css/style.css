@@ -435,6 +435,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  background-color: #f8f6f5;
 }
 
 .section-bg {
@@ -451,7 +452,7 @@ section {
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
-  color: #2f4d5a;
+  color: #312821;
   z-index: 2;
 }
 
@@ -523,7 +524,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/libro.jpg") center center no-repeat;
+  background: url("../img/oldpaper.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -587,7 +588,7 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #67b0d1;
+  color: #312821;
   margin-bottom: 10px;
 }
 
@@ -641,7 +642,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #67b0d1;
+  background: #312821;
   top: 0;
   border-radius: 0px;
 }
@@ -653,7 +654,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #67b0d1;
+  color: #312821;
   transition: all 0.3s ease-in-out;
 }
 
@@ -687,6 +688,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   padding-bottom: 30px;
+  background-color: #b0a8a1;
 }
 
 .counts .count-box {
