@@ -201,7 +201,7 @@ h6 {
   font-size: 15px;
   text-transform: none;
   font-weight: 600;
-  color: #2f4d5a;
+  color: #312821;
 }
 
 .navbar .dropdown ul a i {
@@ -211,7 +211,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #67b0d1;
+  background-color: #b0a8a1;
 }
 
 .navbar .dropdown:hover>ul {
@@ -432,6 +432,23 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+img {
+  padding: 0.5rem;
+}
+
+.criticalities img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.campaign img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -442,7 +459,7 @@ section {
   background-color: #f4f9fc;
 }
 
-.section-title {
+.section-title h2 {
   text-align: center;
   padding-bottom: 30px;
 }
@@ -548,12 +565,17 @@ section {
 
 .about .content {
   padding: 30px 30px 30px 0;
+  width: 70%;
+}
+
+.col-xl-7 {
+  width: 30%;
 }
 
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #2f4d5a;
+  color: #312821;
   margin-bottom: 30px;
 }
 
@@ -1039,6 +1061,16 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team {
+  background-color: #b0a8a1;
+}
+
+.team img {
+  width: 50rem;
+  height: auto;
+}
+
+
 .team .member {
   text-align: center;
   margin-bottom: 80px;
@@ -1258,8 +1290,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
-  padding: 0 0 30px 0;
+  background: #312821;
+  padding: 0 100px 30px 100px;
   color: #fff;
   font-size: 14px;
 }
@@ -1390,11 +1422,11 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #409cc5;
+  background: #312821;
 }
 
 #footer .copyright {
-  border-top: 1px solid #385b6b;
+  border-top: 1px solid #312821;
   text-align: center;
   padding-top: 30px;
 }
